@@ -42,9 +42,11 @@ Precision：生成點中，有多少點與真實點相距小於閾值 <br>
 Recall：真實點中，有多少點與生成點相距小於閾值 <br>
 
 <h1>4.實驗成果</h1>
-Ground Truth<br>
+左：Ground Truth　　右：基本上採樣 512 points <br>
 
-![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif)
+![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif)![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/512.gif)
+
+
 
 
 
