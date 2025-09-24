@@ -42,13 +42,24 @@ Precision：生成點中，有多少點與真實點相距小於閾值 <br>
 Recall：真實點中，有多少點與生成點相距小於閾值 <br>
 
 <h1>4.實驗成果</h1>
-左：Ground Truth　　右：基本上採樣 512 points <br>
+Ground Truth<br>
 
-![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif)![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/512.gif)
+![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif)
 
-<figure class="third">
-    <img src="https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif" width="200"/><img src="https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/512.gif" width="200"/>
-</figure>
+基本上採樣1024points<br>
+![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/1024_NOGAN.gif)
+PU-GAN上採樣1024points<br>
+![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/1024_GAN.gif)
 
+基本上採樣2048points<br>
+![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/2048_NOGAN.gif)
+PU-GAN上採樣2048points<br>
+![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/2048_GAN.gif)
+
+<h1>5.成果分析</h1>
+本研究針對點雲上採樣任務，探討使用對抗式生成網路與非對抗訓練方式之間的性能差異，並評估其在不同上採樣倍率下的效果，使用F-score作為主要評估指標<br>
+在 1024 時 GAN 反而拉低 F-score，可能原因：Discriminator 在低倍率下過度干預，加入 GAN 時，discriminator 會強迫生成器更平滑，反而可能偏離 ground truth，導致某些幾何細節遭到扭曲。 在2048時，有 GAN 較穩定有效，能抑制無 GAN 的點雲破碎與分佈錯亂現象<br>
+
+![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/2.png)
 
 
