@@ -46,7 +46,10 @@ Recall：真實點中，有多少點與生成點相距小於閾值 <br>
 
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif)![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/512.gif)
 
-
+<p align="center">
+      <img src="https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif" align="left">
+      <img src="https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/512.gif" align="right">
+</p>
 
 
 
