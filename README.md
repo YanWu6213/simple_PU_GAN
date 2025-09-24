@@ -8,7 +8,7 @@ PU-GAN (Point cloud Upsampling GAN)
 目的為開發一套基於生成對抗網路的點雲上採樣模型，用以解決原始3D點雲在解析度不足、形狀資訊遺失等問題，可提升下游任務如形狀辨識、3D 重建的準確性與表現。
 <br>
 
-1.資料集：ShapeNetCore.v2
+<h1>1.資料集：ShapeNetCore.v2</h1>
 <br>
 ShapeNetCore.v2是ShapeNet資料集的子集，具有單一乾淨的3D模型。
 <br>
@@ -17,7 +17,8 @@ ShapeNetCore.v2是ShapeNet資料集的子集，具有單一乾淨的3D模型。
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/1.png)
 
 
-2.模型與實驗設計<br>
+<h1>2.模型與實驗設計</h1>
+  <br>
 Generator：<br>
 輸入：[B, N, 3] 低解析度點雲 <br>
 輸出：[B, N * r, 3] 上採樣後的點雲<br>
@@ -34,13 +35,13 @@ Batch size=8<br>
 實作基本上採樣至2048pts<br>
 實作PU-GAN上採樣至2048pts<br>
 
-3.推論與可視化採用f-score <br>
+<h1>3.推論與可視化採用f-score </h1><br>
 評估點雲之間的匹配程度，類似二分類的評估指標，綜合考慮： <br>
 Precision：生成點中，有多少點與真實點相距小於閾值 <br>
 Recall：真實點中，有多少點與生成點相距小於閾值 <br>
 
-4.實驗成果<br>
-<h1>Ground Truth</h1><br>
+<h1>4.實驗成果</h1>
+Ground Truth<br>
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif)
 
 
