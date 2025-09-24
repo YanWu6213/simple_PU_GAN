@@ -14,6 +14,7 @@ ShapeNetCore.v2是ShapeNet資料集的子集，具有單一乾淨的3D模型。
 <br>
 共有55種類別，各筆點雲資料包含15,000個點，每個點有3維座標
 <br>
+
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/1.png)
 
 
@@ -42,7 +43,10 @@ Recall：真實點中，有多少點與生成點相距小於閾值 <br>
 
 <h1>4.實驗成果</h1>
 Ground Truth<br>
+
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif)
+
+
 
 
 
