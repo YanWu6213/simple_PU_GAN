@@ -56,7 +56,7 @@ PU-GAN上採樣1024points<br>
 
 基本上採樣2048points<br>
 
-![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/2048_NOGAN.gif)
+![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/2048_NoGAN.gif)
 
 PU-GAN上採樣2048points<br>
 
