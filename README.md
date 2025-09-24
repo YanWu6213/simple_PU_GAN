@@ -47,13 +47,19 @@ Ground Truth<br>
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/GT.gif)
 
 基本上採樣1024points<br>
+
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/1024_NOGAN.gif)
+
 PU-GAN上採樣1024points<br>
+
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/1024_GAN.gif)
 
 基本上採樣2048points<br>
+
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/2048_NOGAN.gif)
+
 PU-GAN上採樣2048points<br>
+
 ![image](https://github.com/YanWu6213/simple_PU_GAN/blob/main/imgs/2048_GAN.gif)
 
 <h1>5.成果分析</h1>
